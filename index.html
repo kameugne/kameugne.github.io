@@ -34,7 +34,7 @@
 
     .top {
       display: grid;
-      grid-template-columns: 190px 1fr;
+      grid-template-columns: 280px 1fr;
       gap: 18px;
       align-items: start;
       padding-bottom: 16px;
@@ -42,11 +42,14 @@
     }
 
     .photo {
-      width: 190px;
-      height: 190px;
-      border-radius: 4px;
+      width: 280px;
+      height: 340px;
+      border-radius: 10px;
       object-fit: cover;
+      object-position: center 22%;
       border: 1px solid #cfd8df;
+      box-shadow: 0 10px 24px rgba(31, 45, 61, 0.12);
+      display: block;
     }
 
     h1 {
@@ -164,8 +167,8 @@
       }
 
       .photo {
-        width: 150px;
-        height: 150px;
+        width: 210px;
+        height: 260px;
       }
 
       .columns {
@@ -177,7 +180,7 @@
 <body>
   <main class="container">
     <header class="top">
-      <img class="photo" src="Roger.jpeg" alt="Roger Kameugne">
+      <img class="photo" src="RogerK.jpeg" alt="Roger Kameugne">
       <div>
         <h1>Roger KAMEUGNE</h1>
         <div class="subtitle">Researcher at ICTEAM, UCLouvain (Belgium)</div>
