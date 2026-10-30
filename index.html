@@ -1,343 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Roger Kameugne - Researcher at UCLouvain</title>
-  <meta name="description" content="Roger Kameugne - Researcher at ICTEAM, UCLouvain. Constraint Programming, Combinatorial Optimization, and Operations Research.">
-  <style>
-    :root {
-      --ink: #1f2d3d;
-      --muted: #5a6b7d;
-      --accent: #1b5e8c;
-      --line: #d9e1e8;
-      --bg: #ffffff;
-    }
+  <title>Home - Roger Kameugne - Researcher at UCLouvain</title>
+  <meta name="description" content="Personal academic page of Roger Kameugne, focusing on Constraint Programming, Scheduling, Decision Diagrams and Combinatorial Optimization.">
+  <meta name="author" content="Roger Kameugne">
 
-    * {
-      box-sizing: border-box;
-    }
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      color: var(--ink);
-      background: var(--bg);
-      line-height: 1.65;
-    }
-
-    .container {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 24px 18px 50px;
-    }
-
-    .top {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 18px;
-      align-items: start;
-      padding-bottom: 16px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .photo {
-      width: 280px;
-      height: 340px;
-      border-radius: 10px;
-      object-fit: cover;
-      object-position: center 22%;
-      border: 1px solid #cfd8df;
-      box-shadow: 0 10px 24px rgba(31, 45, 61, 0.12);
-      display: block;
-    }
-
-    h1 {
-      margin: 0;
-      color: var(--accent);
-      font-size: 2rem;
-      line-height: 1.2;
-      font-weight: 700;
-    }
-
-    .subtitle {
-      margin-top: 6px;
-      color: var(--muted);
-      font-size: 1.02rem;
-    }
-
-    .meta {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .links {
-      margin-top: 8px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 14px;
-      font-size: 0.95rem;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    nav {
-      margin-top: 12px;
-      font-size: 0.95rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    section {
-      margin-top: 22px;
-    }
-
-    h2 {
-      margin: 0 0 8px;
-      color: var(--accent);
-      font-size: 1.35rem;
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 4px;
-    }
-
-    h3 {
-      margin: 14px 0 6px;
-      color: #27445f;
-      font-size: 1.05rem;
-    }
-
-    p {
-      margin: 8px 0;
-    }
-
-    ul, ol {
-      margin: 6px 0;
-      padding-left: 22px;
-    }
-
-    li + li {
-      margin-top: 5px;
-    }
-
-    .columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-    }
-
-    .exp-item {
-      margin-bottom: 10px;
-    }
-
-    .period {
-      font-weight: 700;
-      color: #2a4f6e;
-      font-size: 0.95rem;
-    }
-
-    .role {
-      font-weight: 700;
-    }
-
-    .org {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    footer {
-      margin-top: 28px;
-      padding-top: 10px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 760px) {
-      .top {
-        grid-template-columns: 1fr;
-      }
-
-      .photo {
-        width: 210px;
-        height: 260px;
-      }
-
-      .columns {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <header class="top">
-      <img class="photo" src="RogerK.jpeg" alt="Roger Kameugne">
-      <div>
-        <h1>Roger KAMEUGNE</h1>
-        <div class="subtitle">Researcher at ICTEAM, UCLouvain (Belgium)</div>
-        <div class="meta">
-          Place Sainte Barbe 2,<br>
-          Batiment Reaumur, 1er etage,<br>
-          1348 Louvain-la-Neuve<br>
-          Belgium<br>
-          Email: <a href="mailto:rkameugne@gmail.com">rkameugne@gmail.com</a> | <a href="mailto:roger.kameugne@uclouvain.be">roger.kameugne@uclouvain.be</a>
-        </div>
-        <div class="links">
-          <a href="https://scholar.google.fr/citations?user=agmFWy8AAAAJ&hl=fr" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a href="https://dblp.org/pid/67/10056.html" target="_blank" rel="noreferrer">DBLP</a>
-          <a href="https://www.semanticscholar.org/author/Roger-Kameugne/2184030?sort=influence" target="_blank" rel="noreferrer">Semantic Scholar</a>
-        </div>
-        <nav>
-          <a href="#biography">Biography</a>
-          <a href="#research">Research</a>
-          <a href="#experience">Professional Experience</a>
-          <a href="#publications">Publications</a>
-          <a href="#service">Service</a>
-        </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Roger Kameugne - Researcher at UCLouvain</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teaching.html">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </nav>
 
-    <section id="biography">
-      <h2>Biography</h2>
-      <p>
-        I am a Senior Lecturer and Researcher specializing in Applied Mathematics, Constraint Programming,
-        and Combinatorial Optimization. My work combines algorithm design, operations research,
-        and practical optimization for real-world industrial and academic applications.
-      </p>
-      <p>
-        I collaborate with international research groups across Belgium, France, Canada, and Africa,
-        with contributions in scheduling, resource constraints, and decision-diagram-based optimization.
-        I am currently involved in DDOLib development in collaboration with CETIC and UCLouvain.
-      </p>
-    </section>
+  <div class="container mt-4">
+    <p><img src="img/roger.jpeg" alt="Roger Kameugne" class="portrait" /></p>
 
-    <section id="research">
-      <h2>Research</h2>
-      <h3>Interests</h3>
-      <ul>
-        <li>Constraint Programming and Combinatorial Optimization</li>
-        <li>Operations Research and Scheduling</li>
-        <li>Dynamic Programming and Decision Diagrams</li>
-        <li>Game Theory and Numerical Analysis</li>
-        <li>Finite Elements and Optimization Applications</li>
-      </ul>
+<h3>Biography</h3>
 
-      <h3>Current and Past Projects</h3>
-      <ul>
-        <li>DDOLib: Java solver integrating Dynamic Programming and Decision Diagrams for combinatorial optimization.</li>
-        <li>Intelligent Planning with Traxeo (Deep Construct Walloon Region project).</li>
-        <li>Vehicle Routing and Supply Chain Optimization with N-SIDE (Presupply project).</li>
-      </ul>
-    </section>
+<p>I am a researcher at ICTEAM (INGI), UCLouvain, Belgium, and Senior Lecturer at the University of Maroua, Cameroon. I work in Applied Mathematics, Constraint Programming and Combinatorial Optimization, with a particular focus on constraint-based scheduling.</p>
 
-    <section id="experience">
-      <h2>Professional Experience</h2>
-      <div class="columns">
-        <div>
-          <div class="exp-item">
-            <div class="period">05.2026 - Present</div>
-            <div class="role">Qualified Researcher</div>
-            <div class="org">UCLouvain, ICTEAM/INGI, Belgium</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">04.2025 - 10.2026</div>
-            <div class="role">Researcher, DDOLib Project (CETIC x UCLouvain)</div>
-            <div class="org">UCLouvain, ICTEAM/INGI, Belgium</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">2019 - 2024 (multiple periods)</div>
-            <div class="role">Visiting Scholar and Researcher</div>
-            <div class="org">Louvain School of Engineering, UCLouvain, Belgium</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">09.2024 - 11.2024</div>
-            <div class="role">INSA Visiting Scholarship</div>
-            <div class="org">Team ROC, LAAS CNRS Toulouse, France</div>
-          </div>
-        </div>
-        <div>
-          <div class="exp-item">
-            <div class="period">2017 - 2025</div>
-            <div class="role">Senior Lecturer and Researcher</div>
-            <div class="org">University of Maroua, Faculty of Sciences, Cameroon</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">01.2017 - 03.2017</div>
-            <div class="role">Abel Visiting Scholar Program</div>
-            <div class="org">Universite Laval, Canada</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">2015 - 2017</div>
-            <div class="role">Head of Department of General Studies</div>
-            <div class="org">Higher Institute of Transport and Logistics, University of Bamenda, Cameroon</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">2013 - 2015</div>
-            <div class="role">Senior Lecturer and Researcher</div>
-            <div class="org">Department of Mathematics and Computer Science, University of Maroua, Cameroon</div>
-          </div>
-          <div class="exp-item">
-            <div class="period">2009 - 2013</div>
-            <div class="role">Senior Lecturer and Researcher</div>
-            <div class="org">Department of Mathematics, Higher Teachers Training College, University of Maroua, Cameroon</div>
-          </div>
-        </div>
-      </div>
-    </section>
+<p>I obtained my Ph.D. in Applied Mathematics from the University of Yaounde 1 (Cameroon) in 2014, with a thesis on <em>propagation techniques of resource constraints for cumulative scheduling</em>. Before that, I obtained a DEA and a Master in Numerical Analysis, a BSc in Mathematics and a Secondary and High School Teacher's Diploma from the same university.</p>
 
-    <section id="publications">
-      <h2>Publications</h2>
-      <h3>Journal Publications</h3>
-      <ol>
-        <li>R. Kameugne, R. Z. Bodo Ngono and Y. P. Ndjopnang Wantiep, Improved Energetic Reasoning Checker for Cumulative Constraint with Profile, European Journal of Operational Research, 2026. <a href="https://doi.org/10.1016/j.ejor.2026.03.037" target="_blank" rel="noreferrer">Online paper</a>.</li>
-        <li>R. Kameugne, P. Wambo and Y. P. Ndjopnang Wantiep, ILP and CP Models for Normalized Integer Weighted Voting Game Design Problem, Discrete Applied Mathematics, 2026. <a href="https://doi.org/10.1016/j.dam.2025.11.051" target="_blank" rel="noreferrer">Online paper</a>.</li>
-        <li>R. Kameugne, S. Fetgo Betmbe and T. Noulamo, Quadratic Horizontally Elastic Not-First/Not-Last Filtering Algorithm for Cumulative Constraint, EJOR, 2025.</li>
-        <li>R. Kameugne, S. Fetgo Betmbe, T. Noulamo and C. Tayou Djamegni, Improved Time Table Edge Finder Rule for Cumulative Constraint with Profile, Computer &amp; Operations Research, 2024. <a href="https://doi.org/10.1016/j.cor.2024.106795" target="_blank" rel="noreferrer">Online paper</a>.</li>
-        <li>R. Kameugne, Propagation techniques of resource constraint for cumulative scheduling, Constraints, 2015.</li>
-        <li>R. Kameugne, L. P. Fotso, J. Scott, Y. Ngo-kateu, A quadratic edge-finding filtering algorithm for cumulative resource constraints, Constraints, 2014.</li>
-        <li>R. Kameugne, S. B. Fetgo, L. P. Fotso, Energetic extended edge-finding filtering algorithm for cumulative resource constraints, American Journal of Operation Research, 2013.</li>
-        <li>R. Kameugne, L. P. Fotso, J. Scott, A quadratic extended edge-finding filtering algorithm for cumulative resource constraints, International Journal of Planning and Scheduling, 2013.</li>
-        <li>R. Kameugne, L. P. Fotso, A cumulative not-first/not-last filtering algorithm in O(n2 log n), Indian Journal of Pure and Applied Mathematics, 2013.</li>
-      </ol>
+<p>I started my career as a mathematics teacher at the Government Bilingual High School of Maroua (2004-2009), then joined the University of Maroua as Lecturer and Researcher, first at the Higher Teachers Training College and then at the Department of Mathematics and Computer Science of the Faculty of Sciences. From 2015 to 2017, I was Head of the Department of General Studies at the Higher Institute of Transport and Logistics, University of Bamenda.</p>
 
-      <h3>Conference Publications</h3>
-      <ol>
-        <li>A. Burlats, R. Kameugne, C. Pelsser and P. Schaus, Clustering for Relaxed and Restricted Decision Diagram Bounds: When It Works and Why, CPAIOR 2026 (accepted).</li>
-        <li>R. Kameugne, S. Fetgo Betmbe, T. Noulamo and C. Tayou Djamegni, Horizontally Elastic Edge Finder Rule for Cumulative Constraint Based on Slack and Density, CP 2023.</li>
-        <li>C. Thomas, R. Kameugne and P. Schaus, Insertion Sequence Variables for Hybrid Routing and Scheduling Problems, CPAIOR, 2020.</li>
-        <li>R. Kameugne, S. B. Fetgo, V. Gingras, Y. Ouellet and C.-G. Quimper, Horizontally Elastic Not-First/Not-Last Filtering Algorithm for Cumulative Resource Constraint, CPAIOR 2018.</li>
-        <li>R. Kameugne, L. P. Fotso, J. Scott and Y. Ngo-kateu, A Quadratic Edge-Finding Filtering Algorithm for Cumulative Resource Constraints, CP 2011.</li>
-      </ol>
+<p>I have had several research stays abroad: at Universit&eacute; Laval, Canada (Abel Visiting Scholar Program, 2017), at UCLouvain, Belgium (several visits between 2019 and 2024, ARES postdoctoral scholarship), and at LAAS-CNRS Toulouse, France (team ROC, INSA Visiting Scholarship, 2024). Since 2025, I have been working at UCLouvain, in collaboration with CETIC, on <a href="https://github.com/DDOLIB-CETIC-UCL/DDOLib" target="_blank" rel="noreferrer">DDOLib</a>, a solver built around dynamic programming and decision diagrams. I have been a qualified researcher at UCLouvain since May 2026.</p>
 
-      <h3>Papers Under Review</h3>
-      <ol>
-        <li>P. Schaus, C. Thomas and R. Kameugne, Implementing Cumulative Functions with Generalized Cumulative Constraints, under review in Journal of Artificial Intelligence Research, 2025.</li>
-        <li>E. Legrand, R. Kameugne and P. Schaus, Partial Shop Scheduling Problem: Dynamic Programming, Decision Diagram, Constraint Programming and Large Neighborhood Search, under review at CP2026.</li>
-      </ol>
-    </section>
+<p class="profiles"><a href="https://scholar.google.fr/citations?user=agmFWy8AAAAJ&amp;hl=fr" target="_blank" rel="noreferrer">Google Scholar</a> <a href="https://dblp.org/pid/67/10056.html" target="_blank" rel="noreferrer">DBLP</a> <a href="https://www.semanticscholar.org/author/Roger-Kameugne/2184030?sort=influence" target="_blank" rel="noreferrer">Semantic Scholar</a></p>
 
-    <section id="service">
-      <h2>Service and Membership</h2>
-      <ul>
-        <li>Program committee member: CPAIOR, CP, AAAI, IJCAI, JFPC.</li>
-        <li>Member: AIA UCL, AFPC, INFORMS, ROADEF, ACP.</li>
-        <li>PhD thesis jury member: Charles Thomas (Oct 2016 - Jan 2023), <em>Advanced modelling and search techniques for routing and scheduling problems</em>. <a href="https://dial.uclouvain.be/pr/boreal/en/search/site/Charles%20Thomas%20Advanced%20modelling%20and%20search%20techniques%20for%20routing%20and%20scheduling%20problems" target="_blank" rel="noreferrer">Thesis link</a>.</li>
-        <li>Awards: ARES Postdoctoral Scholarship, Abel Visiting Scholar Program, INSA Visiting Scholarship.</li>
-      </ul>
-    </section>
+<h3>Research</h3>
 
-    <footer>
-      Last updated: April 2026.
-    </footer>
-  </main>
+Interests
+<ul>
+   <li>Constraint Programming and Combinatorial Optimization</li>
+   <li>Constraint-based Scheduling: filtering algorithms for the cumulative constraint (edge-finding, not-first/not-last, energetic reasoning, timetabling)</li>
+   <li>Dynamic Programming and Decision Diagrams</li>
+   <li>Operations Research</li>
+   <li>Game Theory</li>
+   <li>Numerical Analysis and Finite Elements</li>
+</ul>
+
+Current Projects and collaboration
+<ul>
+   <li><a href="https://github.com/DDOLIB-CETIC-UCL/DDOLib" target="_blank" rel="noreferrer">DDOLib</a>: a Java solver that integrates dynamic programming (DP) and decision diagram (DD) methodologies with a variety of search strategies to address combinatorial problems, in collaboration with CETIC and UCLouvain</li>
+</ul>
+
+Past projects
+<ul>
+   <li>Intelligent Planning with Traxeo (Deep Construct Walloon Region project)</li>
+   <li>Vehicle Routing and supply chain optimization, in collaboration with N-SIDE (Presupply project, r&eacute;gion Wallonne)</li>
+</ul>
+
+    <footer>Last updated: October 2026.</footer>
+  </div>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
